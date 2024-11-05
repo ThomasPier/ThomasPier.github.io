@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ThomasPier.github.io# the base hostname & protocol for your site/sitemap.xml
+Sitemap: https://ThomasPier.github.io# the base hostname & protocol for your site/al-folio/sitemap.xml
