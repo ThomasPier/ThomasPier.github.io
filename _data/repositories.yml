@@ -1,6 +1,5 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ThomasPier
 
 repo_description_lines_max: 2
 
@@ -12,3 +11,4 @@ github_repos:
   - FortAwesome/Font-Awesome
   - mathjax/MathJax
   - jpswalsh/academicons
+  - ThomasPier/ThomasPier
