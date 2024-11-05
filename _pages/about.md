@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. ENS Paris-Saclay, [Centre Borelli](https://centreborelli.ens-paris-saclay.fr)
+subtitle: PhD student in maths at ENS Paris-Saclay, [Centre Borelli](https://centreborelli.ens-paris-saclay.fr)
 profile:
   align: right
   image: prof_pic.jpg
