@@ -5,7 +5,7 @@ permalink: /
 subtitle: PhD student in maths at ENS Paris-Saclay, <a href='https://centreborelli.ens-paris-saclay.fr'>Centre Borelli</a>
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
 
