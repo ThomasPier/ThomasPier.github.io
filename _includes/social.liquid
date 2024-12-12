@@ -1,4 +1,28 @@
-{% if site.email %}
+ <div>
+        <strong>Contact:</strong>
+        &emsp;
+        {{ site.email }}
+        <br>
+        <strong>Follow:</strong>
+        &emsp;&ensp;
+        <a class="contact-icons">
+            {%- if site.scholar_userid -%}<a
+                href="https://scholar.google.com/citations?user={{ site.scholar_userid }}&sortby=pubdate"
+                title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>{% endif %}
+            &emsp;
+            {%- if site.github_username -%}<a href="https://github.com/{{ site.github_username }}" title="GitHub"><i
+                    class="fab fa-github"></i> {{ site.github_username }}</a>{% endif %}
+            &emsp;
+            {%- if site.linkedin_username -%}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"
+                title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>{% endif %}
+            &emsp;
+            {%- if site.research_gate -%}<a href="https://www.researchgate.net/profile/Thomas-Pierron"
+                title="ResearchGate"><i class="fab fa-researchgate"></i> Researchgate</a>{% endif %}
+        </a>
+    </div>
+
+
+<!-- {% if site.email %}
   <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}
 {% if site.telegram_username %}
@@ -130,4 +154,4 @@
     <img src="{{ site.wechat_qr | prepend: 'assets/img/' | relative_url }}" alt="WeChat QR" id="WeChatQR">
   </div>
   {% include scripts/wechatModal.liquid %}
-{% endif %}
+{% endif %}-->
