@@ -35,22 +35,20 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+    {% endif %}
+      </div>
+    {% endif %}
 
-
-          <!-- Social -->
+      <!-- Social -->
         {% if page.social %}
-        <div class="clearfix">
+        <div class="contact-note">
           <div class="contact-icons">{% include social.liquid %}</div>
 
           <div class="contact-note">{{ site.contact_note }}</div>
         </div>
         <br>
-    {% endif %}
-      </div>
-    {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
-    
+    <div class="clearfix">{{ content }}</div>  
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
@@ -58,14 +56,6 @@ layout: default
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
-    {% if site.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
     {% endif %}
 
     <!-- Selected papers -->
